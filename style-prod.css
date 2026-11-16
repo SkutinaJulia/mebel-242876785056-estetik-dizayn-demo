@@ -254,3 +254,7 @@ h1, h2, h3, p, li, a, span, b, label, figcaption, blockquote { -webkit-hyphens: 
   .s-widget .s-chip { min-height: 40px; }
   .s-widget [data-s-days] .s-chip, .s-widget [data-s-times] .s-chip { min-height: 40px; }
 }
+
+/* правка Юли 16.11: услуги в форме – каждая с новой строки (пк и телефон) */
+.s-widget .s-chips--col { flex-direction: column; flex-wrap: nowrap; }
+.s-widget .s-chips--col .s-chip--row { justify-content: flex-start; }
